@@ -14,3 +14,47 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$blue-facebook: #5E9FF7;
+
+* {
+    font-family: 'Barlow', sans-serif !important;
+}
+
+.button {
+    background-color: $blue-facebook;
+    border-radius: 20px;
+    box-shadow: none;
+    font-weight: 600;
+    text-transform: none;
+}
+
+// .list {
+//     border-bottom: 1px solid #efefef;
+    
+//     .item {
+//         padding-left: 0;
+//     }
+
+//     h2 {
+//         font-size: 14px;
+//         font-weight: 600;
+//     }
+
+//     p {
+//         font-size: 12px;
+//     }
+
+//     .item-ios ion-avatar img,
+//     .item-md ion-avatar img {
+//         height: 50px;
+//         width: 50px;
+//     }
+
+//     .item-ios .item-button,
+//     .button-md {
+//         font-weight: 600;
+//         height: 28px;
+//         width: 28%;
+//     }
+// }

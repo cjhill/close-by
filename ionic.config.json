@@ -1,5 +1,8 @@
 {
   "name": "close-by",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "7051d0d6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>list</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list inset>
+        <button ion-item (click)="showRequests()">
+            Friend Request 
+        </button> 
+    </ion-list>
+
+    <ion-list *ngFor="let user of nearbyUsers | async" inset>
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="http://s3.amazonaws.com/hiphopdx-production/2015/09/Chief-Keef_09-03-2015.jpg">
+            </ion-avatar>
+            <h2>{{ user.name }}</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+            <button ion-button item-end (click)="requestFriendship(user.key)">Follow</button>
+        </ion-item>
+    </ion-list>
+</ion-content>

@@ -1,0 +1,33 @@
+page-main-tabs {
+    .tabs {
+        .tabbar {
+            background: white;
+            border-radius: 3px;
+            bottom: 2% !important;
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 93%;
+
+            &:before {
+                background-image: none !important;
+            }
+        }
+    }
+
+    .ion-ios-map-outline,
+    .ion-ios-heart-outline {
+        &:before {
+            display: block;
+        }
+    }
+
+    .ion-ios-map-outline:before {
+        content: url('../../assets/imgs/icon-home.svg');
+    }
+
+    .ion-ios-heart-outline:before {
+        content: url('../../assets/imgs/icon-heart.svg');
+    }
+}

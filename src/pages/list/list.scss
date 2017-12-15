@@ -1,0 +1,14 @@
+page-list {
+    .toolbar-background {
+        border-color: transparent;
+        background: transparent;
+    }
+
+    .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+        content: none;
+    }
+
+    .toolbar-title {
+        color: black;
+    }
+}
